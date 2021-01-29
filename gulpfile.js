@@ -133,3 +133,5 @@ exports.images      = images;
 exports.cleanimg    = cleanimg;
 exports.deploy      = deploy;
 exports.default     = parallel(images, styles, scripts, browsersync, startwatch);
+
+
